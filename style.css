@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif !important;
+    background-color: #ddd;
+}
+
+/************** Generic Style **************/
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/************** Header Section Style **************/
+
+header {
+    height: auto;
+    background-color: #2bb673;
+    color: #fff;
+    padding: 0;
+    font-size: 2.5rem;
+    padding: 0 1.2rem;
+}
+
+div.col{
+    width: 33.34%;
+}
+
+div.row > :last-child {
+    text-align: right;
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+/************** Main Section Style **************/
+
+div.main-section {
+    height: auto;
+    width: 100%;
+    padding: 15px 0;
+}
+
+div.location {
+    width: 90%;
+    height: auto; 
+    margin: 0 auto 15px;
+    background: #2bb673;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.7rem;
+}
+
+div.location i {
+    margin-left: 5px;
+}
+
+div.location span pre {
+    font-family: 'Cairo', sans-serif;
+}
+
+.vertical-center {
+    height: 45px;
+    display: inline-flex;
+    align-items: center;
+}
+
+div.main-col {
+    width: 25.34%;
+    text-align: center !important;
+    background-color: #fff;
+    border-radius: 6px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    margin: 0 10px;
+}
+
+.list-img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+div.main-col span {
+    display: block;
+    font-size: 2.5vw;
+    margin: 0 0 8px;
+}
+
+/************** Footer Section Style **************/
+
+footer.row{
+    margin: 0;
+    background-color: #2bb673;
+    height: auto;
+    color: #fff;
+    font-size: 2vw;
+}
+
+footer .col {
+    padding: 2% 0;
+}
+
+footer .col img {
+    width: 8%;
+    margin-left: 3px;
+    position: relative;
+    bottom: -15%;
+}
+
+footer > :nth-child(2) {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+/************** Media Queries **************/
+
+@media only screen and (max-width: 500px) {
+    header {
+        font-size: 1.5rem;
+        height: 50px;
+    }
+    
+    div.location {
+        font-size: 1.1rem;
+    }
+
+    div.main-col {
+        width: 33.34%;
+    }
+
+    div.main-col span {
+        font-size: 2.8vw;
+    }
+
+    footer.row {
+        font-size: 3vw;
+    }
+
+    footer.row img {
+        width: 10%;
+        bottom: -2px;
+    }
+}
