@@ -34,7 +34,7 @@ div.col{
     width: 33.34%;
 }
 
-div.row > :last-child {
+div.row .search {
     text-align: right;
     font-size: 1.5rem;
     margin-top: 15px;
