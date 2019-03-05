@@ -40,10 +40,9 @@ div.row .search {
 
 /************** Main Section Style **************/
 
-div.main-section {
+main {
     height: auto;
     width: 100%;
-    padding: 15px 0;
 }
 
 div.location {
