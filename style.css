@@ -7,16 +7,12 @@ body {
 
 /************** Generic Style **************/
 
-.container {
-    width: 100%;
-    margin: auto;
-}
-
 .row {
-    display: flex;
     text-align: center;
-    justify-content: center;
     margin-bottom: 20px;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
 }
 
 /************** Header Section Style **************/
@@ -25,17 +21,13 @@ header {
     height: auto;
     background-color: #2bb673;
     color: #fff;
-    font-size: 2.5rem;
-}
-
-div.col{
-    width: 33.34%;
+    font-size: 3vw;
 }
 
 div.row .search {
     text-align: right;
-    font-size: 1.5rem;
-    margin: 18px 15px 0 0;
+    font-size: 1.5vw;
+    margin: 1.2% 0 0;
 }
 
 /************** Main Section Style **************/
@@ -43,6 +35,7 @@ div.row .search {
 main {
     height: auto;
     width: 100%;
+    
 }
 
 div.location {
@@ -53,31 +46,31 @@ div.location {
     color: #fff;
     text-align: center;
     border-radius: 5px;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
-div.location i {
-    margin-left: 5px;
-}
-
-div.location span pre {
+div.location span pre{
     font-family: 'Cairo', sans-serif;
+    color: #fff;
+    margin: 3px 0 0 10px;
 }
+
+
 
 .vertical-center {
-    height: 45px;
+    height: 15%;
     display: inline-flex;
     align-items: center;
 }
 
 div.main-col {
-    width: 25.34%;
     text-align: center !important;
     background-color: #fff;
     border-radius: 6px;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
-    margin: 0 10px;
+    margin: 0 10px 15px;
+    padding: 0;
 }
 
 .list-img {
@@ -88,7 +81,7 @@ div.main-col {
 
 div.main-col span {
     display: block;
-    font-size: 2.5vw;
+    font-size: 1.7vw;
     margin: 0 0 8px;
 }
 
@@ -99,7 +92,7 @@ footer.row{
     background-color: #2bb673;
     height: auto;
     color: #fff;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 footer .col {
@@ -107,10 +100,10 @@ footer .col {
 }
 
 footer .col img {
-    width: 8%;
+    width: 5.5%;
     margin-left: 3px;
     position: relative;
-    bottom: -15%;
+    top: -5%;
 }
 
 footer > :nth-child(2) {
@@ -123,20 +116,15 @@ footer > :nth-child(2) {
 @media only screen and (max-width: 500px) {
     header {
         font-size: 1.5rem;
-        height: 50px;
     }
-    
+
     div.row .search {
         font-size: 1.2rem;
         margin-top: 6px;
     }
-    
-    div.location {
-        font-size: 1.1rem;
-    }
 
-    div.main-col {
-        width: 33.34%;
+    div.location {
+        font-size: 1rem;
     }
 
     div.main-col span {
