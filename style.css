@@ -10,7 +10,7 @@ body {
 .row {
     text-align: center;
     margin-bottom: 20px;
-    justify-content: space-around;
+    justify-content: center;
     margin: 0;
     padding: 0;
 }
@@ -21,13 +21,13 @@ header {
     height: auto;
     background-color: #2bb673;
     color: #fff;
-    font-size: 3vw;
+    font-size: 2rem;
 }
 
 div.row .search {
     text-align: right;
-    font-size: 1.5vw;
-    margin: 1.2% 0 0;
+    font-size: 1.2rem;
+    margin: 0.6rem 0 0;
 }
 
 /************** Main Section Style **************/
@@ -49,13 +49,9 @@ div.location {
     font-size: 1.5rem;
 }
 
-div.location span pre{
-    font-family: 'Cairo', sans-serif;
-    color: #fff;
-    margin: 3px 0 0 10px;
+div.location i {
+    font-size: 1.1rem;
 }
-
-
 
 .vertical-center {
     height: 15%;
@@ -81,26 +77,24 @@ div.main-col {
 
 div.main-col span {
     display: block;
-    font-size: 1.7vw;
+    font-size: 1.2rem;
     margin: 0 0 8px;
 }
 
 /************** Footer Section Style **************/
 
-footer.row{
-    margin: 0;
-    background-color: #2bb673;
-    height: auto;
+footer.row span{
     color: #fff;
-    font-size: 1.5vw;
+    font-size: 1.2rem;
 }
 
 footer .col {
+    background-color: #2bb673;
     padding: 2% 0;
 }
 
 footer .col img {
-    width: 5.5%;
+    width: 1rem;
     margin-left: 3px;
     position: relative;
     top: -5%;
@@ -128,15 +122,14 @@ footer > :nth-child(2) {
     }
 
     div.main-col span {
-        font-size: 2.8vw;
+        font-size: 2.5vw;
     }
 
-    footer.row {
-        font-size: 3vw;
+    footer.row span{
+        font-size: 0.9rem;
     }
 
     footer.row img {
-        width: 10%;
         bottom: -2px;
     }
 }
