@@ -94,7 +94,7 @@ footer .col {
     padding: 2% 0;
 }
 
-footer .col img {
+footer.row img {
     width: 1rem;
     margin-left: 3px;
     position: relative;
@@ -136,6 +136,7 @@ footer > :nth-child(2) {
     }
 
     footer.row img {
+        width: 0.8rem;
         bottom: -2px;
     }
 }
